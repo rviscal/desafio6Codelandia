@@ -5,19 +5,20 @@ import { StarFill } from "./Style";
 
 const Starfill = [1, 2, 3, 4, 5];
 
-function Star(props) {
-  let stars = {
-    starfill: starfill,
-    starout: starOut,
-  };
-  const [st, setSt] = useState("starout");
-  const SwapStar = () => {
-    setSt((st) => (st === "starout" ? "starfill" : "starout"));
-  };
+function Star() {
+  const [avaliar, setAvaliar] = useState(0);
+
+  function handlerSwapStar(num) {
+    setAvaliar(num);
+  }
   return (
     <>
       {Starfill.map((item) => (
-        <StarFill src={stars[st]} alt="Star" onClick={SwapStar} />
+        <StarFill
+          src={item <= avaliar ? starfill : starOut}
+          alt="Star"
+          onClick={() => handlerSwapStar(item)}
+        />
       ))}
     </>
   );
