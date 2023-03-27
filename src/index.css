@@ -16,6 +16,12 @@ code {
   src: local("B612-Regular"), url("./Fonts/B612-Regular.ttf") format("truetype");
 }
 
-header,h1,p{
+header,h1{
   font-family: "B612";
+  font-weight: 700;
+  color: #ffffff;
+}
+p{
+  font-family: "B612";
+  color: #ffffff;
 }

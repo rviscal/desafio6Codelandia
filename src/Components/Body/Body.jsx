@@ -1,11 +1,16 @@
 import React from "react";
-import { Background } from "./Style";
+import { Bd, Content, Header, H1 } from "./Style";
 
 function Body() {
   return (
-    <Background>
-      <div> teste 2</div>
-    </Background>
+    <>
+      <Bd>
+        <Content>
+          <Header>ESTÁ DISPONÍVEL AGORA!</Header>
+          <H1>LOKI</H1>
+        </Content>
+      </Bd>
+    </>
   );
 }
 
