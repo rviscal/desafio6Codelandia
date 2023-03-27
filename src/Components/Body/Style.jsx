@@ -3,14 +3,14 @@ import image from "../Assets/Img/background.jpg";
 
 export const Bd = styled.body`
   width: auto;
-  height: auto;
+  height: 100vh;
   background-image: url(${image});
   background-size: 100% 100%;
 `;
 export const Content = styled.div`
   background: rgba(0, 0, 0, 0.7);
   width: auto;
-  height: auto;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
