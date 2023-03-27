@@ -1,5 +1,5 @@
 import React from "react";
-import CardPhoto from "../../../Img/cover.png";
+import CardPhoto from "../../Assets/Img/cover.png";
 import Time from "../../../Img/Time.png";
 import { Img, Content, Datail } from "./Style";
 import Buttons from "./Buttons/Buttons";

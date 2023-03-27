@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import image from "../../Img/background.jpg";
+import image from "../Assets/Img/background.jpg";
 
 export const Bd = styled.body`
   width: auto;

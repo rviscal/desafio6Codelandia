@@ -13,12 +13,12 @@ code {
 }
 @font-face {
   font-family: "B612";
-  src: local("B612-Regular"), url("./Fonts/B612-Regular.ttf") format("truetype");
+  src: local("B612-Regular"), url("../src/Components/Assets/Fonts/B612-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "OpenSans";
   src: local("OpenSans-Regular"),
-    url("./Fonts/OpenSans-Regular.ttf") format("truetype");
+    url("../src/Components/Assets/Fonts/OpenSans-Regular.ttf") format("truetype");
 }
 header,
 h1 {
